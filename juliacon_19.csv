@@ -1,0 +1,112 @@
+views,likes,disklikes,titles
+1980,56,2,Keynote: Professor Steven G. Johnson
+1600,34,2,Keynote: Professor Heather Miller
+1622,52,0,Multi-threading in Julia with PARTR
+913,22,1,Julia User and Developer Survey (2019)
+1419,53,0,The Unreasonable Effectiveness of Multiple Dispatch
+663,10,0,Keynote: Dr. Ted Rieger
+1469,33,5,Keynote: Professor Madeleine Udell
+3064,78,2,What's Bad About Julia
+710,15,2,Keynote: Arch D. Robison
+1161,33,2,Opening Remarks
+1093,29,0,Debugging Code with JuliaInterpreter
+1264,40,0,Differentiate All The Things!
+467,11,0,Julia's Killer App(s): Implementing State Machines Simply using Multiple Dispatch
+1199,52,0,Scientific AI: Domain Models with Integrated Machine Learning
+1177,22,0,PackageCompiler
+858,21,2,A Showcase for Makie
+831,31,0,MLJ - Machine Learning in Julia
+676,26,0,Intelligent Tensors in Julia
+1071,44,0,How We Wrote a Textbook using Julia
+538,30,0,Mining Imbalanced Big Data with Julia
+558,19,1,Differentiable Rendering and its Applications in Deep Learning
+650,18,0,Cleaning Messy Data with Julia and Gen
+574,9,1,"Pkg, Project.toml, Manifest.toml and Environments"
+807,15,5,Writing Maintainable Julia Code
+637,17,0,Gen: A General-Purpose Probabilistic Programming System
+464,15,0,Prototyping Visualizations for the Web with Vega and Julia
+435,14,0,High-Performance Portfolio Risk Aggregation
+494,7,1,Pyodide: The Scientific Python Stack Compiled to WebAssembly
+466,6,3,Formatting Julia
+601,14,0,A Probabilistic Programming Language for Switching Kalman Filters
+460,14,0,Why writing C interfaces in Julia is so easy
+440,10,1,TSML (Time Series Machine Learning)
+618,20,0,Turing: Probabalistic Programming in Julia
+454,12,0,Fitting Neural Ordinary Differential Equations with DiffeqFlux.jl
+618,17,0,Symbolic Manipulation in Julia
+447,15,0,Neural Ordinary Differential Equations with DiffEqFlux
+360,8,0,A New Breed of Vehicle Simulation
+434,16,1,XLA.jl: Julia on TPUs
+371,9,0,State of the Data: JuliaData
+391,15,0,Porting a Massively Parallel Multi-GPU Application to Julia
+321,7,1,Polynomial and Moment Optimization in Julia and JuMP
+326,3,1,LightQuery.jl
+308,12,0,Sponsor Address: Intel
+411,16,0,Interval methods for scientific computing in Julia
+467,9,1,Geometric algebra in Julia with Grassmann.jl
+348,12,0,SemanticModels.jl: Not Just Another Modeling Framework
+352,11,0,Queryverse - Under the Hood
+291,7,0,Sponsor Address: J P Morgan Chase & Co.
+294,10,0,Smart House with JuliaBerry
+293,13,12,Raising Diversity & Inclusion among Julia users
+408,13,1,Julia + JavaScript = ❤️
+338,11,1,Modia3D: Modeling and Simulation of 3D-Systems in Julia
+327,7,0,Re-designing Optim
+305,18,0,Using Julia in Secure Environments
+289,5,0,Ultimate Datetime
+277,6,1,Modeling in Julia at Exascale for Power Grids
+278,5,0,FilePaths: File System Abstractions and Why We Need Them
+371,9,0,Soss.jl: Probabilistic Metaprogramming in Julia
+248,10,1,A General-Purpose Toolbox for Efficient Kronecker-Based Learning
+293,12,1,Generating Documentation: Under the Hood of Documenter.jl
+276,12,0,SIMD and Cache-Aware Sorting with ChipSort.jl
+236,9,0,Array Data Distribution with ArrayChannels.jl
+355,7,0,If Runtime isn't Funtime: Controlling Compile-time Execution
+257,9,0,Sponsor Address: Julia Computing
+328,9,0,Keynote: Dr. Steven Lee
+488,16,0,Analyzing and updating code with JuliaInterpreter and Revise
+254,8,0,Heterogeneous Agent DSGE Models in Julia at the Federal Reserve Bank of New York
+298,5,0,Julia web servers deployment
+245,9,0,Machine Learning for Social Good
+321,5,0,Building a Debugger with Cassette
+247,11,0,"Yao.jl: Extensible, Efficient Quantum Algorithm Design for Humans"
+229,2,0,Targeting Accelerators with MLIR.jl
+243,4,0,Solving Delay Differential Equations with Julia
+220,9,0,"OmniSci.jl: Bringing the open-source, GPU-accelerated relational database to Julia"
+219,6,0,Recommendation.jl: Building Recommender Systems in Julia
+217,6,0,"DataKnots.jl - an extensible, practical and coherent algebra of query combinators"
+193,6,0,Analyzing Social Networks with SimpleHypergraphs.jl
+214,2,0,Counting On Floating Point
+233,10,0,Towards Faster Sorting and Group-by operations
+248,5,0,Differential Programming Tensor Networks
+206,5,0,Generic Sparse Data Structures on GPUs
+201,7,0,Guaranteed Constrained and Unconstrained Global Optimisation in Julia
+205,9,0,Brain Tumour Classification with Julia
+209,11,0,Probabilistic Biostatistics: Adventures with Julia from Code to Clinic
+321,6,1,The Climate Machine: A New Earth System Model in Julia
+193,6,0,The Linguistics of Puzzles: Solving Cryptic Crosswords in Julia
+170,4,0,Sponsor Address: Relational AI
+202,5,0,"Slow images, fast numbers: Using Julia in biomedical imaging and beyond"
+284,2,0,Static walks through dynamic programs -- a conversation with type-inference.
+286,13,0,Gaussian Process Probabilistic Programming with Stheno.jl
+253,6,0,Simulation and Estimation of Nonlinear Mixed Effects Models with PuMaS.jl
+196,8,0,TrajectoryOptimization.jl: A Testbed for Optimization-Based Robotic Motion Planning
+229,6,0,"GigaSOM.jl: Huge-scale, high-performance cytometry clustering in Julia"
+192,7,0,“Online” Estimation of Macroeconomic Models
+178,9,1,Let's Play Hanabi!
+167,5,0,Non-Gaussian State-Estimation with JuliaRobotics/Caesar.jl
+148,2,0,Computational topology and Boolean operations with Julia sparse arrays
+131,1,1,Julia for Battery Model Parameter Estimation
+216,5,0,Electrifying Transportation with Julia
+328,9,0,TimerOutputs.jl - a cheap and cheerful instrumenting profiler
+112,1,0,Open Source Power System Production Cost Modeling in Julia
+148,9,0,A case study of migrating Timelineapp.co to the Julia language
+163,3,0,Concolic Fuzzing -- Or how to run a theorem prover on your Julia code
+126,2,0,Implicit Geometry with Multi-Dimensional Bisection Method
+109,6,0,JuliaCN: A Community Driven Localization Group for Julia in China
+133,3,0,Mimi.jl – Next Generation Climate Economics Modeling
+77,2,0,Sponsor Address: University of Maryland
+257,9,0,Transducers: data-oriented abstraction for sequential and parallel algorithms on containers
+338,6,0,The Julia Language Ephemeris and Physical Constants Reader for Solar System Bodies
+185,5,0,MendelIHT.jl: Generalized Linear Models for High Dimensional Genetics (GWAS) Data
+116,6,0,IVIVC.jl: In vitro - In vivo correlation module for pharmaceutical modeling in Pumas
