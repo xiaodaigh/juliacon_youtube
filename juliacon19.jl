@@ -56,23 +56,59 @@ function hehe2(qq, a)
     res1[:rank][1]
 end
 
-@time which_is_best = hehe2.(0.01:0.01:0.99, Ref(a))
+#@time which_is_best = hehe2.(0.01:0.01:0.99, Ref(a))
 
 a = hehe3(0.05, a)
 
+ok(t, r) = "[$(replace(t, "," => "_"))]($r)"
 a1 = @> begin
     a
-    @select :titles :rank :score :views :likes :disklikes
+    @transform title = ok.(:titles, :url)
+    @select :title :rank :score :views :likes :disklikes
 end
 
 using TableView
 
 showtable(a1)
 
-a1[:titles] = replace.(a[:titles], Ref("," => "_"))
-
-CSV.write("fnl_rank.csv", a1)
+CSV.write("fnl_rank.csv", a1, delim = '|')
 
 # using BrowseTables
 #
 # open_html_table(a)
+using Plots
+
+plot(log.(a[:views]), a[:score], seriestype = :scatter)
+plot(a[:views], a[:score], seriestype = :scatter)
+
+using Statistics
+
+using GLM
+
+a[:log_views] = log.(a[:views])
+
+lm(@formula(score~log_views), a)
+
+using Clustering
+
+x = a[:score]
+
+
+
+res = kmeans(reshape(x,1,111), 5)
+
+
+plot(x, marker_z = res.assignments, seriestype=:scatter)
+
+using ChipSort
+
+bigdata = rand(Int32, 2^20)
+
+using ChipSort, SIMD
+
+@time chipsort_large(bigdata, Val(8), Val(32));
+
+@time sort(bigdata);
+
+using SortingAlgorithms
+@time sort(bigdata, alg=RadixSort);

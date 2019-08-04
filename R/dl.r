@@ -69,6 +69,7 @@ print(timetaken(pt))
 the_data1 = purrr::map_dfr(the_data, ~.x[[2]])
 setDT(the_data1)
 the_data1[,titles := titles]
+the_data1[,url := paste0("https://youtube.com", urls)]
 
 fwrite(the_data1, "juliacon_19.csv")
 
